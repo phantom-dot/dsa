@@ -5,8 +5,6 @@ using namespace std;
 void del_in_arr(int arr[],int pos)
 {
 
-
-
 }
 
 int main()
