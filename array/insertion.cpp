@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void insert(int array[],int data,int pos,int size)
+void insert(int array[],int data,int pos,int size,int cap)
 {
-    if(size==pos)
+    if(size==cap)
     cout<<"max limit reached";
 
     else
@@ -32,8 +32,9 @@ int main()
     int arr[10]={1,2,3,4,5,6};
 
     int size=sizeof(arr)/sizeof(arr[0]);
+    int cap=10;
 
-  insert(arr,5,2,size);
+  insert(arr,5,2,size,cap);
 
 
 

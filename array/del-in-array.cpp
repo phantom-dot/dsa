@@ -2,10 +2,7 @@
 
 using namespace std;
 
-void del_in_arr(int arr[],int pos)
-{
 
-}
 
 int main()
 {
@@ -20,7 +17,7 @@ cin>>pos;
 
 if (pos>size || pos<0)
 {
-    cout<<"teri maa ki chut";
+    cout<<"wrong position";
  
 }
 
@@ -36,14 +33,14 @@ for (int i = pos-1; i < size-1; i++)
 
 size--;
 
+
+}
+
+
 for (int i = 0; i < size; i++)
 {
     /* code */
     cout<<arr[i];
-}
-
-
-
 }
 
 
